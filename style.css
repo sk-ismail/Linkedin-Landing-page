@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;}
+
+
+    body{
+        font-family: sans-serif;
+        overflow: hidden;
+        user-select: none;
+      }
+nav .logo{
+    color: white;
+    font-size: 43px;
+    font-weight: bold;
+    line-height: 70px;
+    padding-left: 10px;}
+    
+    nav{
+        height: 70px;
+        background: #053e58;
+        
+      }
+      nav ul{
+        float: right;
+        margin-right: 30px;
+        
+      }
+
+input{
+    margin-left: 10px;
+    margin-bottom: 5px;
+text-align: center;
+text-transform: uppercase;
+height: 40px;
+width: 250px;
+background-color: rgb(230, 230, 230);
+border-radius: 5px;
+
+}
+
+
+
+nav ul li{
+    display: inline-block;
+  }
+  nav ul li a {
+    color: rgb(214, 216, 218);
+    display: block;
+    padding: 0 15px;
+    line-height: 70px;
+    font-size: 20px;
+      
+  }
+
+  nav ul li:hover > ul{
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+    transition: .3s linear;
+  }
+  #logo{
+      background-color: #0e76a8;
+      margin: 2px;
+      border-radius: 3px;
+      padding-right: 5px;
+      padding-left: 5px;
+      
+       
+    }
+    nav ul li a:hover,
+nav ul li a.active{
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1500px) {
+
+    #content{
+        
+        display: none;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .logo{
+        
+        block-size: 10px;
+    }
+}
+
+
+
+#work{
+   
+    border-left: #ffffff;
+}
+@media screen and (max-width: 360px) {
+
+    .navbar{
+        
+        
+
+    }
+}
+
+
+
+
+
+@media (min-width: 768px) {
+
+
+
+  
+}
+
+.mainNav{
+
+
+}
+
+hr{
+    margin: 5px;
+    
+}
+
+.cardpad{
+    margin-bottom: 5px;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-bottom: 15px;
+    
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+
+  .scard {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 15px;
+    margin-bottom: 100px;
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .scard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  .mcard {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-top: 15px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .mcard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+
+  
+  
+
+
+
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1070px;
+    }
+}
+  .like{
+      text-size-adjust: ;
+      
+  }
+
+ .img{
+
+    block-size: 50px;
+     border-radius: 50px;
+ }
+
+ .cardpad{
+
+    padding-top: px;
+
+    margin-left: 5px;
+ }
+
+ .color{
+
+    color: rgb(85, 96, 255);
+ }
+
+ .img1{
+
+    justify-content: center;
+
+ }
+ @media (min-width: 68px) {
+    .img1{
+      width: 430px;
+    }
+}
+    @media (min-width: 668px) {
+        .img1{
+          width: 630px;
+        }
+  }
+  @media (min-width: 992px) {
+    .img1 {
+      width: 900px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .img1 {
+      width: 1030px;
+    }
+  }
+
+
+    #reaction1{
+
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #reaction{
+
+        margin: 10px;
+    }
+
+    .card{
+
+        
+    }
+
+    body {
+        overflow: scroll;
+      }
+
+      @media (min-width: 368px) {
+        input{
+          width: 300px;
+        }
+    }
+    @media (min-width: 568px) {
+        input{
+          width: 310px;
+        }
+    }
+        @media (min-width: 668px) {
+            input{
+              width: 250px;
+            }
+      }
+      @media (min-width: 992px) {
+        input{
+          width: 270px;
+        }
+      }
+      @media (min-width: 1200px) {
+        input{
+          width: 300px;
+        }
+      }
+
+
+      .navbar1 {
+        background-color:  #ffffff;
+        position: fixed;
+
+       
+        
+
+        overflow: auto;
+        bottom: 0;
+        width: 100%;
+      }
+      
+      /* Style the links inside the navigation bar */
+      .navbar1 a {
+        float: left;
+        display: block;
+        color: #000000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      /* Change the color of links on hover */
+      .navbar1 a:hover {
+        
+        color: #0e76a8;
+      }
+      
+      /* Add a color to the active/current link */
+      .navbar1 a.active {
+        color: #0e76a8;
+        
+      }
+
+      .bnav{
+
+        
+      }
+
+
+      #bicon{
+
+        
+           margin: 15px;
+
+      }
+
+      @media (min-width: 368px) {
+        .navbar1{
+          width: 630px;
+        }
+    }
+    @media (min-width: 568px) {
+        .navbar1{
+            display: none;
+        }
+    }
+        @media (min-width: 668px) {
+            .navbar1{
+                display: none;
+            }
+      }
+      @media (min-width: 992px) {
+        .navbar1{
+            display: none;
+        }
+      }
+      @media (min-width: 1200px) {
+        .navbar1{
+          display: none;
+        }
+      }
+
+
+
+      @media (min-width: 268px) {
+        .logo{
+            display: none;
+        }
+    }
+    @media (min-width: 568px) {
+        .logo{
+            display: contents;
+        }
+    }
+        @media (min-width: 668px) {
+            .logo{
+                display: contents;
+            }
+      }
+      @media (min-width: 992px) {
+        .logo{
+            display: contents;
+        }
+      }
+      @media (min-width: 1200px) {
+        .logo{
+            display: contents;
+        }
+      }
+
+
+
+      .pic{
+
+        
+          block-size: 50px;      
+        border-radius: 20px;
+                      
+      }
+
+
+   
+      @media (min-width: 268px) {
+        .profile{
+            display: contents;
+        }
+    }
+    @media (min-width: 568px) {
+        .profile{
+            display: none;
+        }
+    }
+        @media (min-width: 668px) {
+            .profile{
+                display: none;
+            }
+      }
+      @media (min-width: 992px) {
+        .profile{
+            display: none;
+        }
+      }
+      @media (min-width: 1200px) {
+        .profile{
+            display: none;
+        }
+      }
+   
+
+
+      @media screen and (max-width: 950px) {
+
+        .nocontent{
+            
+            display: none;
+    
+        }
+    }
+    
+
+    @media (min-width: 268px) {
+        .card{
+
+            margin-top: 90px;
+            
+        }
+    }
+    @media (min-width: 568px) {
+        .card{
+            margin-top: 10px;
+        }
+    }
+        @media (min-width: 668px) {
+            .card{
+                margin-top: 10px;
+            }
+      }
+      @media (min-width: 992px) {
+        .card{
+            margin-top: 10px;
+        }
+      }
+      @media (min-width: 1200px) {
+        .card{
+            margin-top: 10px;
+        }
+      }
+
+      @media (min-width: 268px) {
+        .navbar{
+
+            position: fixed;
+            
+        }
+    }
+    @media (min-width: 568px) {
+        .navbar{
+            position: relative;
+        }
+    }
+        @media (min-width: 668px) {
+            .navbar{
+                position: relative;
+            }
+      }
+      @media (min-width: 992px) {
+        .navbar{
+            position: relative;
+        }
+      }
+      @media (min-width: 1200px) {
+        .navbar{
+            position: relative;
+        }
+      }
